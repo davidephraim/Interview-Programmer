@@ -1,0 +1,19 @@
+library-management/
+├── app/
+│   └── Http/
+│       └── Controllers/
+│           └── Api/
+│               ├── BookController.php
+│               └── CategoryController.php
+├── resources/
+│   └── views/
+│       └── books/
+│           ├── index.blade.php
+│           └── form.blade.php
+├── routes/
+│   ├── web.php
+│   └── api.php
+└── database/
+    ├── migrations/
+    └── seeders/
+        └── CategorySeeder.php
